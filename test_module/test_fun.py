@@ -43,7 +43,7 @@ def test_fun_np():
 
 
 
-def stupid function():
+def stupid_function():
     """A stupid function.
 
     Returns
