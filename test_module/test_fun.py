@@ -27,6 +27,9 @@ def test_fun(x):
 	print('This is x:', x)
 	return x
 
+
+
+
 def test_fun_np():
     """A test function with numpy.
 
@@ -36,3 +39,16 @@ def test_fun_np():
 		An array of zeros.
     """
     return p.zeros(100)
+
+
+
+
+def stupid function():
+    """A stupid function.
+
+    Returns
+	-------
+	out : list
+        Returns an empty list.
+    """
+    return []
