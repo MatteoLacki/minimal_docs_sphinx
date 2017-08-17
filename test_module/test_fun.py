@@ -1,3 +1,5 @@
+import numpy as np
+
 def test_fun(x):
 	"""A test function
 
@@ -24,4 +26,13 @@ def test_fun(x):
 	"""
 	print('This is x:', x)
 	return x
-	
+
+def test_fun_np():
+    """A test function with numpy.
+
+    Returns
+	-------
+	out : array
+		An array of zeros.
+    """
+    return p.zeros(100)
